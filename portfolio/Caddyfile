@@ -7,12 +7,5 @@ simant.xyz:443 {
   }
 }
 
-https://45.56.73.20:443 {
-  tls shrestha01123@gmail.com
-  root * /srv
-  route {
-    try_files {path} {path}/ /index.html
-    file_server
-  }
-}
+
 
