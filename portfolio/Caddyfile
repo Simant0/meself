@@ -1,4 +1,4 @@
-www.simant.xyz:443 {
+simant.xyz:443 {
   tls shrestha01123@gmail.com
   root * /srv
   route {
