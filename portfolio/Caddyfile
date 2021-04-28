@@ -8,7 +8,12 @@ simant.xyz:443 {
 }
 
 www.simant.xyz:443 {
-  simant.xyz
+  tls shrestha01123@gmail.com
+  root * /srv
+  route {
+    try_files {path} {path}/ /index.html
+    file_server
+  }
 }
 
 
