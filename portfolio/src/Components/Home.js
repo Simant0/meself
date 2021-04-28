@@ -35,6 +35,11 @@ export default function Home() {
                     Simant0
                   </Link>
                 </p>
+                <p>
+                  <Link to={{ pathname: resume }} target="_blank">
+                    My Resume
+                  </Link>
+                </p>
               </div>
             </div>
           </section>
