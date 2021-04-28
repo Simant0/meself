@@ -9,7 +9,7 @@ RUN yarn install
 
 COPY . .
 
-RUN yarn builder
+RUN yarn build
 
 ## Caddy
 FROM caddy:2.1.1-alpine
