@@ -1,0 +1,16 @@
+
+http://localhost:80 {
+root * /srv
+  route {
+    try_files {path} {path}/ /index.html
+    file_server
+  }
+}
+
+http://45.56.73.20:80 {
+  root * /srv
+  route {
+    try_files {path} {path}/ /index.html
+    file_server
+  }
+}
