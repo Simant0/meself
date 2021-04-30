@@ -20,10 +20,8 @@ export default function Home() {
             <div className="home__intro">
               Hello world, I am
               <h1>SIMANT</h1>
-              <p>
-                A computer enthusiast. I like the art of programming. I am
-                interested in networking and computer security.
-              </p>
+              <p>A computer enthusiast. I like the art of programming.</p>
+              <p>I am interested in networking and computer security.</p>
               <div className="contacts">
                 <p>shrestha01123@gmail.com</p>
                 <p>

@@ -8,6 +8,7 @@ section {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -25,10 +26,14 @@ h1 {
   padding-top: 100px;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
 .home__skillsContent {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px;
 }
 
 .home__skillsBox {
