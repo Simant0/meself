@@ -1,5 +1,14 @@
 simant.xyz:443 {
-  tls shrestha01123@gmail.com
+  tls internal
+  root * /srv
+  route {
+    try_files {path} {path}/ /index.html
+    file_server
+  }
+}
+
+www.simant.xyz:443 {
+  tls internal
   root * /srv
   route {
     try_files {path} {path}/ /index.html
